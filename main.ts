@@ -12,6 +12,6 @@ basic.forever(function () {
     } else if (serial.readLine() == "d") {
         sprite.change(LedSpriteProperty.X, 1)
     } else {
-        serial.writeLine("?")
+    	
     }
 })
